@@ -11,3 +11,4 @@ aws.docdir
 libraries/**/_build
 *.tar.gz
 libraries/**/.merlin
+lib/**/.merlin
