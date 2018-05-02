@@ -12,3 +12,4 @@ libraries/**/_build
 *.tar.gz
 libraries/**/.merlin
 lib/**/.merlin
+.envrc
