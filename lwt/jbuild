@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(library
+ ((name aws_lwt)
+  (inline_tests ((flags (-verbose))))
+  (libraries (aws cohttp.lwt lwt ssl))))
+

@@ -1,0 +1,9 @@
+(jbuild_version 1)
+
+(executables
+ ((names (aws_gen))
+  (public_names (aws_gen))
+  (libraries (cmdliner yojson ppx_tools ppx_tools_versioned.metaquot_405
+              ocamlgraph unix ocaml-migrate-parsetree str))
+  (modules_without_implementation (structures))
+  (preprocess (pps (ppx_tools_versioned.metaquot_405)))))

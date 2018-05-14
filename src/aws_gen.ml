@@ -40,7 +40,7 @@ let uncapitalize s =
   let at_start = ref true in
   String.map (fun c ->
     if !at_start then
-      begin at_start := false; Char.lowercase c end
+      begin at_start := false; Char.lowercase_ascii c end
     else c)
   s
 

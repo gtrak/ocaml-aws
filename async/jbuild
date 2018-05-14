@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(library
+ ((name aws_async)
+  (inline_tests ((flags (-verbose))))
+  (libraries (aws cohttp.async async async_ssl threads))))
+
